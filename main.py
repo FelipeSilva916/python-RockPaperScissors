@@ -10,3 +10,7 @@ def get_choices():
     computer_choice = random.choice(options)
     choices = {'player': player_choice, 'computer': computer_choice}
     return choices
+
+
+choices = get_choices()
+print(choices)
