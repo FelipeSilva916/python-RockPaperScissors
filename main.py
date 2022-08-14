@@ -1,6 +1,4 @@
-
-from operator import ge
-from random import choices
+import random
 
 
 def get_choices():
@@ -8,10 +6,7 @@ def get_choices():
     Asks the user for a choice and returns it.
     """
     player_choice = input("Choose rock, paper or scissors: ")
-    computer_choice = 'paper'
+    options = ["rock", "paper", "scissors"]
+    computer_choice = random.choice(options)
     choices = {'player': player_choice, 'computer': computer_choice}
     return choices
-
-
-choices = get_choices()
-print(choices)
