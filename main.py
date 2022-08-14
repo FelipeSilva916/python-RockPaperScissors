@@ -7,10 +7,10 @@ def get_choices():
     """
     Asks the user for a choice and returns it.
     """
-    player_choice = 'rock'
+    player_choice = input("Choose rock, paper or scissors: ")
     computer_choice = 'paper'
-
-    return player_choice, computer_choice
+    choices = {'player': player_choice, 'computer': computer_choice}
+    return choices
 
 
 choices = get_choices()
