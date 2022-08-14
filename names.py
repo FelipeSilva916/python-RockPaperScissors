@@ -64,3 +64,39 @@
 
 # change(val)  # val is a dictionary
 # print(val)
+
+
+# =================== VARIABLE SCOPE ======================
+# def test():
+#     age = 35
+#     print(age)
+
+
+# test()
+
+# ===================== NESTED FUNCTIONS ======================
+
+# def talk(phrase):  # phrase is a string
+#     def say(word):  # word is a string
+#         print(word)  # prints the word
+
+#     words = phrase.split(' ')  # splits the phrase into words
+#     for word in words:  # for each word in the phrase
+#         say(word)  # calls the say function
+
+
+# talk('I am going to buy a new car')
+
+# ====================== OBJECTS ======================
+
+# age = 35
+
+# print(age.real)
+# print(age.imag)
+# print(age.conjugate())  # returns the complex conjugate
+# print(age.bit_length())  # returns the number of bits in the number
+
+items = [1, 2, 3, 4, 5]
+items.append(6)  # adds 6 to the end of the list
+print(items)  # [1, 2, 3, 4, 5, 6]
+print(id(items))  # prints the memory address of the list
