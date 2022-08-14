@@ -49,5 +49,18 @@
 
 # =================== FUNCTIONS ======================
 
-def hello():
-    print('Hello World!')
+# def hello(name, age):
+#     print(f"Hello {name}, you are {age} years old.")
+
+
+# hello('Felipe', 35)
+
+# val = {'name': 'Felipe', 'age': 35}
+
+
+# def change(value):  # value is a dictionary
+#     value['age'] = value['age'] + 1  # value increases by 1
+
+
+# change(val)  # val is a dictionary
+# print(val)
