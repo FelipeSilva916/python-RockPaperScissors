@@ -131,3 +131,18 @@
 #     print(item)
 
 # ====================== CLASSES ======================
+
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def bark(self):
+        print('Woof!')
+
+
+roger = Dog('Roger', 5)  # creates a new Dog object
+# print(type(roger))  # prints the type of the object
+print(roger.name)  # prints the name of the dog
+print(roger.age)  # prints the age of the dog
+roger.bark()  # prints the bark of the dog
