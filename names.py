@@ -96,7 +96,38 @@
 # print(age.conjugate())  # returns the complex conjugate
 # print(age.bit_length())  # returns the number of bits in the number
 
-items = [1, 2, 3, 4, 5]
-items.append(6)  # adds 6 to the end of the list
-print(items)  # [1, 2, 3, 4, 5, 6]
-print(id(items))  # prints the memory address of the list
+# items = [1, 2, 3, 4, 5]
+# items.append(6)  # adds 6 to the end of the list
+# print(items)  # [1, 2, 3, 4, 5, 6]
+# print(id(items))  # prints the memory address of the list
+
+
+# ====================== LOOPS ======================
+
+# condition = True
+# while condition == True:
+#     print('Hello')
+#     condition = False
+
+# count = 0
+# while count < 10:
+#     print('The count is:', count)
+#     count += 1
+
+# print('Goodbye')
+
+# items = [1, 2, 3, 4, 5]
+
+# for item in items: # for each item in the list
+#     print(item) # prints each item
+
+# enumerate returns the index and the item
+# for index, item in enumerate(items):
+#     print('Index: ', index, 'Item:', item)  # prints the index and the item
+
+# for item in items:
+#     if item == 3:
+#         break
+#     print(item)
+
+# ====================== CLASSES ======================
