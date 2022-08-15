@@ -155,21 +155,23 @@
 
 
 # ====================== Accepting Arguments ======================
-import argparse  # imports the argparse module
-import sys  # imports the sys module
+# import argparse  # imports the argparse module
+# import sys  # imports the sys module
 
 # name = sys.argv[1]  # sys.argv is a list of arguments passed to the script
 # print('Hello', name)  # prints the name passed to the script
 
 
-parser = argparse.ArgumentParser(
-    description='This program prints the name of dogs'
-)  # creates a new ArgumentParser object
+# parser = argparse.ArgumentParser(
+#     description='This program prints the name of dogs'
+# )  # creates a new ArgumentParser object
 
-parser.add_argument('-c', '--color', metavar='color', required=True,
-                    help='The color of the dog')  # adds a new argument
+# parser.add_argument('-c', '--color', metavar='color', required=True,
+#                     help='The color of the dog')  # adds a new argument
 
-args = parser.parse_args()  # parses the arguments passed to the script
+# args = parser.parse_args()  # parses the arguments passed to the script
 
 
-print(args.color)  # prints the color passed to the script
+# print(args.color)  # prints the color passed to the script
+
+lambda num: num * 2
