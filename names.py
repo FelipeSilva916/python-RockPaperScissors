@@ -174,4 +174,66 @@
 
 # print(args.color)  # prints the color passed to the script
 
-lambda num: num * 2
+# print(lambda num: num * 2)
+
+# ====================== MAP, FILTER, REDUCE ======================
+from cgitb import reset
+from functools import reduce
+
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+# def double(a):
+#     return a * 2
+
+# def double(a): return a * 2
+
+
+# map applies the double function to each item in the list
+# result = map(double, numbers)
+
+# print(list(result))  # prints the result of the map function
+
+
+# def isEver(n):
+#     return n % 2 == 0
+
+
+# result = filter(isEver, numbers)
+# result = filter(lambda n: 2 % n == 0, numbers)  # lambda function
+# print(list(result))
+
+# expenses = [
+#     ('Dinner', 80),
+#     ('Car repair', 120),
+# ]
+
+# sum = 0
+# for expense in expenses:
+#     sum += expense[1]
+
+# print(sum)
+
+# sum = reduce(lambda a, b: a[1] + b[1], expenses)
+# print(sum)
+
+# ====================== DECORATORS ======================
+
+# def logtime(func):
+#     def wrapper():
+#         # do something before
+#         print('before')
+#         val = func()
+#         # do something after
+#         print('after')
+#         return val
+#     return wrapper
+
+
+# @logtime
+# def hello():
+#     print('Hello')
+
+
+# hello()
