@@ -237,3 +237,15 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
 # hello()
+
+# ====================== EXCEPTIONS ======================
+
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print('You cannot divide by zero')
+
+finally:
+    print('This will always run')
+
+raise Exception('This is an exception')
